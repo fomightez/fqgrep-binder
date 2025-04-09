@@ -13,6 +13,26 @@ I use Jupyter Notebooks here with some code to demonstrate how easy it is to use
 
 ***Clarifying Software Attribution: I, Wayne, am not involved with Fulcrum Genomics or `fqgrep` development in any way. I simply set up this repository to demonstrate the use of it in MyBinder-served Jupyter Sessions. See the links above and below for the materials by those who develop and maintain fqgrep.***
 
+--------
+
+## Related utility
+
+[Patmatch](https://github.com/fomightez/patmatch-binder) will run on fasta to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitions that I haven't seen fqgrep support. (see about 'indraniel/fqgrep' below for more on that.)
+
+And so if you need to allow mismatches with numbers of insertions, deletions, and substitions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
+
+
+### Related converting fastq to fasta to be able to use more available tools
+
+This code in a notebook will convert fastq format to fasta containing the sequences:
+
+```shell
+%%bash
+awk '{if(NR%4==1) {printf(">%s\n",substr($0,2));} else if(NR%4==2) print;}' input.fastq > output.fasta
+```
+
+Leave off the magic `%%bash` line if you want to run that on the command line `%%bash`
+
 
 --------
 
