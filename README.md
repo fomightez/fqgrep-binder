@@ -24,14 +24,15 @@ And so if you need to allow mismatches with numbers of insertions, deletions, an
 
 ### Related converting fastq to fasta to be able to use more available tools
 
-This code in a notebook will convert fastq format to fasta containing the sequences:
+Patmatch and many other tools work with fasta format. It is easy to convert.  
+This code in a Jupyter notebook will convert fastq format to fasta containing the sequences:
 
 ```shell
 %%bash
 awk '{if(NR%4==1) {printf(">%s\n",substr($0,2));} else if(NR%4==2) print;}' input.fastq > output.fasta
 ```
 
-Leave off the magic `%%bash` line if you want to run that on the command line `%%bash`
+Leave off the magic `%%bash` line if you want to run that on the command line `%%bash` Most system have `awk` by default.
 
 
 --------
