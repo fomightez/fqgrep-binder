@@ -1,5 +1,8 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/fqgrep-binder/HEAD?urlpath=%2Fdoc%2Ftree%2FDemonstrate+Fulcrum+Genomics+fqgrep.ipynb)
+
 # fqgrep-binder
-Demonstrating Fulcrum Genomics' fqgrep in MyBinder-served sessions
+Demonstrating Fulcrum Genomics' fqgrep in MyBinder-served sessions.  
+Click 'launch' badge above to get started.
 
 See [Fulcrum Genomics repo for fqgrep here](https://github.com/fulcrumgenomics/fqgrep) for more about the command line utility.
 
