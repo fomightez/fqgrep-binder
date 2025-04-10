@@ -17,9 +17,9 @@ I use Jupyter Notebooks here with some code to demonstrate how easy it is to use
 
 ## Related utility
 
-[Patmatch](https://github.com/fomightez/patmatch-binder) will run on fasta to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitions that I haven't seen fqgrep support. (see about 'indraniel/fqgrep' below for more on that.)
+[Patmatch](https://github.com/fomightez/patmatch-binder) will run on fasta to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitutions that I haven't seen fqgrep support. (see about 'indraniel/fqgrep' below for more on that.)
 
-And so if you need to allow mismatches with numbers of insertions, deletions, and substitions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
+And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
 
 
 ### Related converting fastq to fasta to be able to use more available tools
