@@ -37,7 +37,7 @@ Leave off the magic `%%bash` line if you want to run that on the command line `%
 
 --------
 
-## Not about the older fqgrep
+## Note about the older fqgrep
 
-Because later I noticed there is another fqgrep, I'll point out **this repo specifically uses as soure Fulcrum Genomics' [fqgrep repo](https://github.com/fulcrumgenomics/fqgrep)**.   
-(There is an older `fqgrep` that allows insertions, deletions, and substitutions [here](https://github.com/indraniel/fqgrep). It hasn't been updated since 2016, as best I can tell, see [here](https://github.com/indraniel/fqgrep/releases/tag/v0.4.4); I'll refer to it as `indraniel/fqgrep` ot something to that effect to distinguish it. As best I can tell, `indraniel/fqgrep` doesn't offer any special handling for paired ends, like Fulcrum Genomics `fqgrep` does.)
+Because later I noticed there is another `fqgrep` out there, I'll highlight that **this repo uses as a source Fulcrum Genomics' [fqgrep repo](https://github.com/fulcrumgenomics/fqgrep)**.   
+There is an older `fqgrep` that allows insertions, deletions, and substitutions [here](https://github.com/indraniel/fqgrep). It hasn't been updated since 2016, as best I can tell, see [here](https://github.com/indraniel/fqgrep/releases/tag/v0.4.4); I'll refer to it as `indraniel/fqgrep` or something to that effect to distinguish it. I have it working in MyBinder-served session [here](https://github.com/fomightez/indraniel_fqgrep-binder), if you'd like to try it. As best I can tell, `indraniel/fqgrep` doesn't offer any special handling for paired ends, like Fulcrum Genomics `fqgrep` does. 
