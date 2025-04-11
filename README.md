@@ -15,11 +15,17 @@ I use Jupyter Notebooks here with some code to demonstrate how easy it is to use
 
 --------
 
-## Related utility
+## Related utilities
 
-[Patmatch](https://github.com/fomightez/patmatch-binder) will run on fasta to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitutions that I haven't seen fqgrep support. (see about 'indraniel/fqgrep' below for more on that.)
+- Indraniel Das' fqgrep
 
-And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
+	While older and in some ways less full-featured than Fulcrum Genomics' fqgrep, [Indraniel Das' fqgrep](https://github.com/fomightez/indraniel_fqgrep-binder) does allow mismatches by specifying insertions, deletions, and substitutions. Plus, it allows FASTA formatted files and has some reporting format options that Fulcrum Genomics' fqgrep doesn't have. See more about it and try it in MyBinder-served sessions [here](https://github.com/fomightez/patmatch-binder).
+
+- Patmatch
+
+	[Patmatch](https://github.com/fomightez/patmatch-binder) will run on FASTA files to find matches to patterns. Patmatch supports IUPAC and mismatch insertions, deletions, and substitutions that I haven't seen fqgrep support. (see about 'indraniel/fqgrep' above for more on some of that.)
+
+	And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
 
 
 ### Related converting fastq to fasta to be able to use more available tools
