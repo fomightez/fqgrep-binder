@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/fqgrep-binder/HEAD?urlpath=%2Fdoc%2Ftree%2FDemonstrate+Fulcrum+Genomics+fqgrep.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/fqgrep-binder/HEAD?urlpath=%2Flab%2Ftree%2FDemonstrate+Fulcrum+Genomics+fqgrep.ipynb)
 
 # fqgrep-binder
 Demonstrating Fulcrum Genomics' fqgrep in MyBinder-served sessions.  
