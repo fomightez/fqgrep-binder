@@ -30,6 +30,10 @@ I use Jupyter Notebooks here with some code to demonstrate how easy it is to use
 
 	And so if you need to allow mismatches with numbers of insertions, deletions, and substitutions, see more about Patmatch [here](https://github.com/fomightez/patmatch-binder).
 
+- grepq
+
+	Rust-based [grepq](https://github.com/Rbfinch/grepq) - I think this may the most recent entry along these lines, and says, "very fast and scales to large FASTQ files" & "IUPAC ambiguity code support"
+
 
 ### Related converting fastq to fasta to be able to use more available tools
 
