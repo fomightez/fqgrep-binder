@@ -18,7 +18,7 @@ I use Jupyter Notebooks here with some code to demonstrate how easy it is to use
 ## Related utilities
 
 - seqkit grep
-	[seqkit grep](https://bioinf.shenwei.me/seqkit/usage/#grep) appears to allow biological-type mismatches and since it is part of a 'Utrafast FASTA/Q kit', I assume it works on both file formats. I have yet to try it. Learned of it from [this Biostar's post](https://www.biostars.org/p/346852/#346875) when I thought to include 'fuzzy' as a search term when I was pondering why no one cared that Fulcrum Genomics' fqgrep seems not to support biologica-style mismatches or Indraniel Das' fqgrep is not maintained.
+	[seqkit grep](https://bioinf.shenwei.me/seqkit/usage/#grep) appears to allow biological-type mismatches (but not deletion/insertion?) and since it is part of a 'Utrafast FASTA/Q kit', I assume it works on both file formats. I have yet to try it. Learned of it from [this Biostar's post](https://www.biostars.org/p/346852/#346875) when I thought to include 'fuzzy' as a search term when I was pondering why no one cared that Fulcrum Genomics' fqgrep seems not to support biological-style mismatches or Indraniel Das' fqgrep is not maintained. (Related: `seqkit locate` in same package also allows mismatches.)
 
 - Indraniel Das' fqgrep
 
